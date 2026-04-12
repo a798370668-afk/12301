@@ -1,25 +1,39 @@
 {
-  "description": "12301.ciao.su - 由配置生成器创建",
+  "description": "12301.ciao.su",
   "subdomain": "12301",
   "domain": "ciao.su",
   "owner": {
     "name": "黄春雨",
     "github": "a798370668-afk",
-    "email": "798370668@qq.com"
+    "email": "a798370668@gmail.com"
   },
   "records": [
     {
-      "type": "CNAME",
-      "name": "@",
-      "content": "a798370668-afk.github.io",
-      "ttl": 600,
+      "type": "A",
+      "name": "ciao",
+      "content": "185.199.108.153",
+      "ttl": 3600,
       "proxied": false
     },
     {
-      "type": "CNAME",
-      "name": "www",
-      "content": "a798370668-afk.github.io",
-      "ttl": 600,
+      "type": "A",
+      "name": "ciao",
+      "content": "185.199.109.153",
+      "ttl": 3600,
+      "proxied": false
+    },
+    {
+      "type": "A",
+      "name": "ciao",
+      "content": "185.199.110.153",
+      "ttl": 3600,
+      "proxied": false
+    },
+    {
+      "type": "A",
+      "name": "ciao",
+      "content": "185.199.111.153",
+      "ttl": 3600,
       "proxied": false
     }
   ]
